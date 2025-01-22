@@ -1,0 +1,23 @@
+{
+    "name": "tencentcloud/tccatalog",
+    "description": "TencentCloudApi php sdk tccatalog",
+    "type": "library",
+    "homepage": "https://github.com/tencentcloud-sdk-php/tccatalog",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tencentcloudapi",
+            "email": "tencentcloudapi@tencent.com",
+            "homepage": "https://github.com/tencentcloud-sdk-php/tccatalog",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "tencentcloud/common": "3.0.248"
+    },
+    "autoload": {
+        "psr-4": {
+            "TencentCloud\\": "./src/TencentCloud"
+        }
+    }
+}
